@@ -9,4 +9,6 @@ Used CSS grid for the layout of the images. Flexbox used in about me page.
 
 JavaScript used to make mobile navbar. Working to add more JavaScript elements to the website. 
 
+Fixed navbar link color problem.
+
 Any bugs or recommendations for me? Let me know!
