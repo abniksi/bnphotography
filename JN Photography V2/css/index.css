@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 
-/* Creating the navbar. */
+/* Creating the navbar and styling it. */
 .navbar {
   background-color: white;
   display: flex;
@@ -30,10 +30,6 @@
   display: flex;
 }
 
-.navbarItems-right {
-  margin-left:auto;
-}
-
 /* For transitioning navbar from desktop to mobile view. */
 .navbarLink-toggle {
   display: none;
@@ -54,7 +50,7 @@
   height: 100%;
   margin-right: auto;
   margin-left: auto;
-  background-color: #f6f6f6;
+  background-color: #cdc9c9;
   font-family: 'Playfair Display', serif;
 }
 
@@ -103,6 +99,7 @@
     grid-row-gap: 5px;
 }
 
+/* Stlying for how the CSS grid will appear. */
 #pic2 {
     grid-column-start: 2;
     grid-column-end: 4;
@@ -232,20 +229,20 @@ a:visited {
 
 /* Media query for transitioning navbar to mobile view. */
 @media only screen and (max-width: 768px) {
-  .navbarItems,
   .navbar {
     flex-direction: column;
   }
 
-.navbarItems {
-    display:none;
+  .navbarItems {
+    display: none;
+    flex-direction: column;
   }
 
-.navbarToggleShow {
+  .navbarToggleShow {
     display: flex;
   }
 
-.navbarLink-toggle {
+  .navbarLink-toggle {
     align-self: flex-end;
     display: initial;
     position: absolute;

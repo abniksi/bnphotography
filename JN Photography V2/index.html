@@ -17,25 +17,25 @@
   </head>
   <body>
     <!-- Navbar. Once page gets to certain pixel width, navbar switches to mobile and tablet view. -->
-    <div class="navbar">
+    <nav class="navbar">
       <div class="navbarLink navbarLink-brand">
         <p id="mainTitle"><i class="fas fa-camera-retro"></i><a href="index.html">BN Photography</a></p>
       </div>
       <div class="navbarLink navbarLink-toggle">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars" id="font"></i>
       </div>
-      <nav class="navbarItems navbarItems-right">
+      <div class="navbarItems navbarItems-right">
         <div class="navbarLink mobileNav">
           <a class="navHover" href="aboutme.html">About Me</a>
         </div>
         <div class="navbarLink mobileNav">
           <a class="navHover" href="portfolio.html">Portfolio</a>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
     <!-- Main section of page. -->
-    <div id="main">
+    <main id="main">
       <div id="mainWork">
         <div id="headings">
           <!-- Text for the main page. -->
@@ -54,9 +54,10 @@
           <a id="pic6" href="https://picsum.photos/3840/2160/?random" data-lightbox="image-1" data-title="My caption"><img src="https://picsum.photos/3840/2160/?random"></a>
         </div>
       </div>
+    </main>
 
       <!-- Footer section. Same footer code used on every page. -->
-      <div id="footer">
+      <footer id="footer">
         <div id="footerText">
           <h3>Connect With Me</h3>
         </div>
@@ -73,8 +74,8 @@
         <div id="copyright">
           <p>Copyright &copy; 2019 BN Photography Inc. All rights reserved.</p>
         </div>
-      </div>
-    </div>
+      </footer>
+
 
     <!-- Linking the JavaScript to the HTML. -->
     <script src="javascript/lightbox.js"></script>
