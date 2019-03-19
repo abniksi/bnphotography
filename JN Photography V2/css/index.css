@@ -251,6 +251,11 @@ a:visited {
     position: absolute;
     cursor: pointer;
    }
+
+   .mobileNav{
+     margin: 10px;
+     text-align: center;
+   }
 }
 
 /* Another media query to get rid of CSS grid and display the photos in a mobile view. */

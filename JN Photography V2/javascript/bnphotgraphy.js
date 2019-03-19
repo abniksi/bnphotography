@@ -1,7 +1,7 @@
 /* Creating a function called navbarSwitch. */
 function navbarSwitch() {
   /* Selecting navbarItems class with DOM manipulation. */
-  var navbarToggle = document.querySelectorAll('.navbarItems')
+  var navbarToggle = document.querySelectorAll('.navbarItems');
 
   /* Toggle between navbarItems class and navbarToggleShow. */
   navbarToggle.forEach(nav => nav.classList.toggle('navbarToggleShow'));

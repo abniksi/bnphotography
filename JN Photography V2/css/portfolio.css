@@ -186,6 +186,12 @@ a:visited {
     position: absolute;
     cursor: pointer;
    }
+   
+   .mobileNav{
+     margin: 10px;
+     text-align: center;
+   }
+
    #gallary {
        margin-left: auto;
        margin-right: auto;
