@@ -1,10 +1,13 @@
+/* Importing Google fonts, */
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
+/* Setting margin for the entire page. */
 *{
   margin: 0 auto;
 }
 
+/* Navbar styling. */
 .navbar {
   background-color: white;
   display: flex;
@@ -13,12 +16,14 @@
   color: black;
 }
 
-.navbarLink {
-  padding-right: 8px;
+.navHover {
+  transition: 1s ease;
+  padding: 8px;
 }
 
 .navHover:hover{
-  border-bottom: 1px solid black;
+  background-color: rgba(0,0,0);
+  color: white;
 }
 
 .navbarItems {
@@ -33,6 +38,7 @@
   display: none;
 }
 
+/* Main section background */
 .aboutMe{
   background-color: #f6f6f6;
 }
@@ -47,7 +53,7 @@
 
 img{
   width: 100%;
-  height: 60%;
+  height: 100%;
 }
 
 .textArea{
@@ -72,35 +78,39 @@ img{
     cursor: pointer;
 }
 
+/* Selector for the icons. Adding some border and spacing. */
 .fab{
   border: 1px solid black;
-  border-radius: 50px;
+  border-radius: 15px;
   font-size: 20px;
   padding: 15px;
+  transition: 1s ease;
 }
 
+/* When you hover on the items, the color changes and it scales them up. */
 .fab:hover{
-  background-color: #f6f6f6;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 .fa-facebook:hover{
-  color:#3b5998;
+  background-color:#3b5998;
 }
 
 .fa-youtube:hover{
-  color: #FF0000;
+  background-color: #FF0000;
 }
 
 .fa-snapchat:hover{
-  color: #FFFC00;
+  background-color: #FFFC00;
 }
 
 .fa-twitter:hover{
-  color: #0084b4;
+  background-color: #0084b4;
 }
 
 .fa-instagram:hover{
-  color: pink;
+  background-color: pink;
 }
 
 #icons li{
@@ -137,9 +147,15 @@ img{
   background-color: white;
 }
 
-a {text-decoration: none}
-a:visited {text-decoration: none;
-color: black;}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
 
 @media only screen and (max-width: 768px) {
   .navbarItems,
@@ -149,9 +165,7 @@ color: black;}
 .navbarItems {
     display:none;
   }
-.navbarItems-right {
-    margin-left:0;
-  }
+
 .navbarToggleShow {
     display: flex;
   }
@@ -181,12 +195,12 @@ color: black;}
     flex-direction: column;
   }
 
-  .joshImage{
+  .bradenImage{
     width: 50%;
   }
 
-  .joshImage img{
+  .bradenImage img{
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 }
