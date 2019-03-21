@@ -9,8 +9,8 @@ the <a> element. Very simple fix and now lightbox works properly with CSS grid.
 
 Used CSS grid for the layout of the images. Flexbox used in about me page. 
 
-JavaScript used to make mobile navbar. Working to add more JavaScript elements to the website. 
-Trying to make the navbar much better. Mobile navbar is the only thing I am not happy with 
-currently with this project.
+JavaScript used to make mobile navbar. Fixed the navbar to look better. Currently, the only thing 
+I would want to add is a smooth transition when you click on the mobile navbar. Fixed the JavaScript
+to include an exit icon after you click to expand the mobile navbar.
 
-Any bugs or recommendations for me? Let me know!
+Any bugs or recommendations for me to make this project better? Let me know!
