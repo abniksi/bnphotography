@@ -11,6 +11,7 @@ Used CSS grid for the layout of the images. Flexbox used in about me page.
 
 JavaScript used to make mobile navbar. Fixed the navbar to look better. Currently, the only thing 
 I would want to add is a smooth transition when you click on the mobile navbar. Fixed the JavaScript
-to include an exit icon after you click to expand the mobile navbar.
+to include an exit icon after you click to expand the mobile navbar. Used a simple classList.toggle 
+to get the exit icon to appear and the bars icon to disappear.
 
 Any bugs or recommendations for me to make this project better? Let me know!
